@@ -1,0 +1,88 @@
+@import 'global.scss';
+@import 'vars.scss';
+@import 'fonts.scss';
+
+//start header
+
+.header{
+    min-height: 1200px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    &__menu{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 120px;
+    }
+    &__content{
+        height: 1080px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        text-align: center;
+    }
+    &__box{
+        flex: 1 0 auto;
+    }
+    &__title{
+        margin-top: 150px;
+        font-size: 92px;
+        line-height: 92px;
+        @include f700;
+        span{
+            display: block;
+            color: $orange;
+        }
+    }
+    &__text{
+        margin-top: 20px;
+        margin-bottom: 50px;
+        font-size: 18px;
+        color: rgba(255, 255, 255, 0.2);
+    }
+    &__btn{
+        display: inline-block;
+        width: 230px;
+        a{
+            display: block;
+            font-size: 14px;
+            text-transform: uppercase;
+            @include f700;
+            color: #b98000;
+            padding: 21px 5px 15px;
+            border-radius: 30px;
+            background-color: #ffc74a;
+      
+        }
+    }
+    &__down-title{
+        flex: 0 0 auto;
+        font-size: 18px;
+        margin-bottom: 230px;
+    }
+      
+}
+
+
+.logo{
+    display: flex;
+    align-items: center;
+    font-size: 30px;
+    @include f700;
+    img{
+        margin-right: 20px;
+    }
+}
+
+.menu-list{
+    display: flex;
+    li{
+        margin-right: 50px;
+    }
+    a{
+        font-size: 18px;
+    }
+}
+
+//end header
