@@ -336,3 +336,47 @@
 }
 
 //end explore
+
+//start enjoy
+
+.enjoy{
+    display: flex;
+    align-items: center;
+    height: 643px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    &__inner{
+        text-align: center;
+    }
+    &__title{
+        font-size: 92px;
+        line-height: 92px;
+        @include f700;
+        margin-bottom: 30px;
+    }
+    &__link{
+        display: inline-block;
+        max-width: 155px;
+        width: 100%;
+        margin-bottom: 50px;
+        a{
+            border-radius: 30px;
+            display: block;
+            font-size: 14px;
+            color: $btnt;
+            background-color: $btn;
+            padding: 15px 5px;  
+            text-transform: uppercase;
+        }
+    }
+    &__text{
+        font-size: 18px;
+        a{
+            color: $btn;
+            text-decoration: underline;
+        }
+    }
+}
+
+//end enjoy
