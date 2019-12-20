@@ -15,55 +15,303 @@
 <header class="header" style="background-image: url(images/header/1.jpg);">
     <div class="container-fluid">
         <div class="header__menu">
-            <div class="logo">
+            <a href="#" class="logo">
                 <img src="images/header/logo.png" alt="">
                 <span>Polind</span>
-            </div>
+            </a>
             <nav class="menu">
                 <ul class="menu-list">
                     <li>
                         <a href="#">
-                            Guide
+                            Гид
                         </a>
                     </li>
                     <li>
                         <a href="#">
-                            Journey
+                            Рейсы
                         </a>
                     </li>
                     <li>
                         <a href="#">
-                            Hotels
+                            Отели
                         </a>
                     </li>
                     <li>
                         <a href="#">
-                            Travelers
+                            Путешествия
                         </a>
                     </li>
                 </ul>
+                <div class="menu__btn">
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                </div>
             </nav>
         </div>
         <div class="header__content">
             <div class="header__box">
-                <div class="header__title">
-                    Fall in love
-                    <span>with Poland</span>
+                <div class="header__title animated fadeInDownBig">
+                    Влюбляйся
+                    <span>в Польшу</span>
                 </div>
-                <div class="header__text">
-                    Best way to find your perfect place in Poland
+                <div class="header__text animated fadeIn">
+                    Лучший способ найти идеальное место в Польше
                 </div>
-                <div class="header__btn">
-                    <a href="#">SEARCH YOUR PLACE</a>
+                <div class="header__btn animated fadeInUpBig">
+                    <a href="#">Найти ваше место</a>
                 </div>
             </div>
             <div class="header__down-title">
-                Popular places to discover
+                Популярные места для путешествия
+            </div>
+        </div>
+        <div class="header__items">
+            <div class="header__item  wow fadeInUpBig slide1" data-wow-offset="400">
+                <div class="header__item-info">
+                    <div class="header__item-title">
+                        Morskie Oko
+                    </div>
+                    <div class="header__item-text">
+                        Białczańska
+                    </div>
+                </div>
+                <div class="header__item-link">
+                    <a href="#">просмотреть предложения</a>
+                </div>
+            </div>
+            <div class="header__item wow fadeInUpBig slide2" data-wow-offset="400">
+                <div class="header__item-info">
+                    <div class="header__item-title">
+                        Zakopane
+                    </div>
+                    <div class="header__item-text">
+                        Małopolskie
+                    </div>
+                </div>
+                <div class="header__item-link">
+                    <a href="#">просмотреть предложения</a>
+                </div>
+            </div>
+            <div class="header__item wow fadeInUpBig slide3" data-wow-offset="400">
+                <div class="header__item-info">
+                    <div class="header__item-title">
+                        Sandomierz
+                    </div>
+                    <div class="header__item-text">
+                        Swietokrzyskie
+                    </div>
+                </div>
+                <div class="header__item-link">
+                    <a href="#">
+                        просмотреть предложения</a>
+                </div>
+            </div>
+            <div class="header__item wow fadeInUpBig slide4" data-wow-offset="400">
+                <div class="header__item-info">
+                    <div class="header__item-title">
+                        Sopot
+                    </div>
+                    <div class="header__item-text">
+                        Pomorskie
+                    </div>
+                </div>
+                <div class="header__item-link">
+                    <a href="#">
+                        просмотреть предложения</a>
+                </div>
+            </div>
+            <div class="header__item wow fadeInUpBig slide5" data-wow-offset="400">
+                <div class="header__item-info">
+                    <div class="header__item-title">
+                        Krutynia
+                    </div>
+                    <div class="header__item-text">
+                        Białowieska
+                    </div>
+                </div>
+                <div class="header__item-link">
+                    <a href="#">просмотреть предложения</a>
+                </div>
+            </div>
+            <div class="header__item slide6" data-wow-offset="400">
+                <div class="header__item-info">
+                    <div class="header__item-title">
+                        Zakopane
+                    </div>
+                    <div class="header__item-text">
+                        Małopolskie
+                    </div>
+                </div>
+                <div class="header__item-link">
+                    <a href="#">просмотреть предложения</a>
+                </div>
             </div>
         </div>
     </div>
 
 </header>
+
+<section class="search">
+    <div class="container">
+        <div class="search__inner">
+            <div class="search__title">
+                Куда вы хотите поехать?
+            </div>
+            <div class="search__form">
+                <form>
+                    <input type="text" placeholder="Найти место">
+                    <button class="icon-search" type="submit"></button>
+                </form>
+            </div>
+        </div>
+        <div class="search__buttons">
+            <button type="button" data-filter="all">Все</button>
+            <button type="button" data-filter=".category-a">Заповедники</button>
+            <button type="button" data-filter=".category-b">Достопримечательности</button>
+        </div>
+        <div class="search__items">
+            <div class="search__item mix wow fadeInLeftBig category-b" data-wow-offset="200">
+                <div class="search__item-img " style="background-image: url(images/search/item1.jpg);">
+
+                </div>
+                <div class="search__item-title">
+                    Poznan
+                </div>
+                <div class="seatch__item-text">
+                    Wielkopolskie
+                </div>
+                <div class="search__item-link">
+                    <a href="#">просмотреть предложения</a>
+                </div>
+            </div>
+            <div class="search__item mix wow fadeInUpBig category-a" data-wow-offset="200">
+                <div class="search__item-img" style="background-image: url(images/search/item2.jpg);">
+
+                </div>
+                <div class="search__item-title">
+                    Warsaw
+                </div>
+                <div class="seatch__item-text">
+                    Mazowieckie
+                </div>
+                <div class="search__item-link">
+                    <a href="#">просмотреть предложения</a>
+                </div>
+            </div>
+            <div class="search__item mix wow fadeInRightBig category-a" data-wow-offset="200">
+                <div class="search__item-img" style="background-image: url(images/search/item3.jpg);">
+
+                </div>
+                <div class="search__item-title">
+                    Wroclaw
+                </div>
+                <div class="seatch__item-text">
+                    Dolnoslaskie
+                </div>
+                <div class="search__item-link">
+                    <a href="#">просмотреть предложения</a>
+                </div>
+            </div>
+            <div class="search__item mix wow fadeInLeftBig category-a" data-wow-offset="200">
+                <div class="search__item-img" style="background-image: url(images/search/item4.jpg);">
+
+                </div>
+                <div class="search__item-title">
+                    Karpacz
+                </div>
+                <div class="seatch__item-text">
+                    Dolnoslaskie
+                </div>
+                <div class="search__item-link">
+                    <a href="#">просмотреть предложения</a>
+                </div>
+            </div>
+            <div class="search__item mix wow fadeInUpBig category-b" data-wow-offset="200">
+                <div class="search__item-img" style="background-image: url(images/search/item5.jpg);">
+
+                </div>
+                <div class="search__item-title">
+                    Dolina Olczyska
+                </div>
+                <div class="seatch__item-text">
+                    Malopolskie
+                </div>
+                <div class="search__item-link">
+                    <a href="#">просмотреть предложения</a>
+                </div>
+            </div>
+            <div class="search__item mix wow fadeInRightBig category-b" data-wow-offset="200">
+                <div class="search__item-img" style="background-image: url(images/search/item6.jpg);">
+
+                </div>
+                <div class="search__item-title">
+                    Kozy
+                </div>
+                <div class="seatch__item-text">
+                    Slaskie
+                </div>
+                <div class="search__item-link">
+                    <a href="#">просмотреть предложения</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="explore" style="background-image: url(images/explore/bg.jpg);">
+    <div class="container">
+        <div class="explore__inner">
+            <div class="explore__title wow fadeIn" data-wow-offset="200">
+                Узнай о городе
+            </div>
+            <div class="explore__img wow fadeInRightBig" data-wow-offset="200">
+                <img src="images/explore/img.png" alt="">
+            </div>
+            <div class="explore__box wow fadeInLeftBig" data-wow-offset="200">
+                <div class="explore__name">
+                    Sandomierz
+                </div>
+                <p>
+                    Сандомир является одним из старейших и исторически наиболее значимых городов в Польше.
+                    Археологические находки в окрестностях города показывают, что люди жили в этом районе с неолита.
+                    Город возник в раннем средневековье, благодаря прекрасному расположению на стыке рек Вислы и Сан, а
+                    также на пути важных торговых путей.
+                </p>
+                <p>
+                    Первое известное историческое упоминание о городе относится к началу 12-го века, когда летописец
+                    Галл Анонимус оценил его вместе с Краковом и Вроцлавом как один из главных городов Польши. Болеслав
+                    III Рымут разделил Польшу между своими сыновьями и назначил
+                    Сандомир столицей одного из образовавшихся княжеств.
+                </p>
+                <div class="explore__link">
+                    <a href="#">
+                        CHECK OFFERS
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="enjoy" style="background-image: url(images/enjoy/bg.jpg);">
+    <div class="container">
+        <div class="enjoy__inner">
+            <div class="enjoy__title wow fadeInUp" data-wow-offset="200">
+                Приятного путешествия
+            </div>
+            <div class="enjoy__link wow fadeInUp" data-wow-offset="200">
+                <a href="#">
+                    Войти
+                </a>
+            </div>
+            <div class="enjoy__text wow fadeInUp" data-wow-offset="100">
+                Вы также можете подписаться на нашу <a href="#">рассылку</a>
+            </div>
+        </div>
+
+    </div>
+</section>
 
 <body>
 

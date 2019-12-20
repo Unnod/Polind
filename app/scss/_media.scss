@@ -1,0 +1,117 @@
+@media (max-width: 1000px){
+    .explore__img {
+        img{
+            height: 400px;
+        }
+    }
+}
+
+@media (max-width: 940px){
+    .container-fluid{
+        padding: 0 5px;
+    }
+    .menu__btn{
+        display: block;
+    }
+    .menu-list{
+        display: none;
+        position: absolute;
+        top: 90px;
+        right: 0;
+        z-index: 1;
+        width: 100%;
+        text-align: center;
+        background-color: $btn;
+        border: 2px solid $btnt;
+        li{
+            margin-right: 0;
+            padding-bottom: 5px;
+            padding-top: 5px;
+            & + li{
+                border-top: 1px solid $btnt;
+            }
+            a{
+                display: block;
+                width: 100%;
+                color: $btnt;
+                border: none;
+            }
+        }
+    }
+}
+
+@media (max-width: 850px){
+    .search__item {
+        margin-left: 30px;
+        flex-basis: calc(50% - 30px);
+    }
+    .explore__img {
+        img{
+            height: 300px;
+        }
+    }
+    .explore__title {
+        font-size: 25px;
+    }
+    .explore__name {
+        font-size: 25px;
+    }
+}
+
+@media (max-width: 700px){
+    .header__title {
+        font-size: 70px;
+        line-height: 70px;
+    }
+    .enjoy__title {
+        font-size: 70px;
+        line-height: 70px;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 700;
+        margin-bottom: 30px;
+    }
+}
+
+@media (max-width: 850px){
+    .search__item {
+        margin-left: 30px;
+        flex-basis: calc(100% - 30px);
+    }
+    .search__item-img {
+       height: 250px;
+    }
+    .search__item-title {
+        font-size: 25px;
+    }
+    .search__item-link a {
+      font-size: 13px;
+    }
+}
+
+@media (max-width: 540px){
+    .explore__img {
+        display: block;
+        text-align: center;
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    .explore__name {
+        text-align: center;
+    }
+}
+
+@media (max-width: 530px){
+    .header__text {
+        font-size: 15px;
+        margin-bottom: 30px;
+    }
+    .header__title {
+        font-size: 45px;
+        line-height: 45px;
+    }
+    .enjoy__title {
+        font-size: 40px;
+        line-height: 40px;
+    }
+}
+
