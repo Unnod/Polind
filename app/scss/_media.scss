@@ -1,0 +1,33 @@
+@media (max-width: 940px){
+    .container-fluid{
+        padding: 0 10px;
+    }
+    .menu__btn{
+        display: block;
+    }
+    .menu-list{
+        display: none;
+        position: absolute;
+        top: 90px;
+        right: 0;
+        z-index: 1;
+        width: 100%;
+        text-align: center;
+        background-color: $btn;
+        border: 2px solid $btnt;
+        li{
+            margin-right: 0;
+            padding-bottom: 5px;
+            padding-top: 5px;
+            & + li{
+                border-top: 1px solid $btnt;
+            }
+            a{
+                display: block;
+                width: 100%;
+                color: $btnt;
+                border: none;
+            }
+        }
+    }
+}

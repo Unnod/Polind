@@ -118,6 +118,11 @@
                 font-size: 38px;
                 line-height: 38px;
             }
+            .header__item-info{
+                transition: all .5s;
+                animation-duration: 1s;
+                margin-bottom: 60px;
+            }
         }
         & + .header__item{
             margin-left: 20px;
@@ -133,7 +138,7 @@
             color: $btnt;
         }
         &-info{
-            margin-bottom: 60px;
+            margin-bottom: 10px;
         }
         &-link{
             display: inline-block;
@@ -143,7 +148,7 @@
                 text-transform: uppercase;
                 height: 0;
                 padding: 0;
-                transition: all .3s;
+                transition: all .5s;
                 display: block;
                 font-size: 14px;
                 @include f700;
@@ -157,6 +162,22 @@
         }
     }
 }
+
+.menu__btn{
+    height: auto;
+    display: none;
+    cursor: pointer;
+    div{
+        height: 3px;
+        background-color: #fff;
+        width:40px;
+        margin-bottom: 5px;
+    }
+}
+
+// .menu{
+//     position: relative;
+// }
 
 
 .logo{
@@ -408,3 +429,5 @@
 }
 
 //end enjoy
+
+@import 'media.scss'
