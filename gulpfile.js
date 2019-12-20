@@ -22,7 +22,9 @@ gulp.task('script',function(){
     return gulp.src([
         'node_modules/slick-carousel/slick/slick.js',
         'node_modules/magnific-popup/dist/jquery.magnific-popup.js',
-        'node_modules/mixin-deep/mixitup/dist/mixitup.js'
+        'node_modules/mixin-deep/mixitup/dist/mixitup.js',
+        'node_modules/wow.js/dist/wow.js'
+
     ])
         .pipe(concat('libs.min.js'))
         .pipe(uglify())
@@ -33,7 +35,8 @@ gulp.task('style',function(){
     return gulp.src([
         'node_modules/normalize.css/normalize.css',
         'node_modules/slick-carousel/slick/slick.css',
-        'node_modules/magnific-popup/dist/magnific-popup.css'
+        'node_modules/magnific-popup/dist/magnific-popup.css',
+        'node_modules/wow.js/css/libs/animate.css'
     ])
         .pipe(concat('libs.min.css'))
         .pipe(cssmin())
