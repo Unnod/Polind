@@ -10,6 +10,23 @@
     background-repeat: no-repeat;
     background-position: center center;
     position: relative;
+    .slick-arrow{
+        position: absolute;
+        top: -60px;
+        border: none;
+        background-color: transparent;
+        color: #fff;
+        cursor: pointer;
+        z-index: 1;
+        outline: none;
+        font-size: 50px;
+    }
+    .prev-arrow{
+        left: 40px;
+    }
+    .next-arrow{
+        right: 40px;
+    }
     &__menu{
         display: flex;
         justify-content: space-between;

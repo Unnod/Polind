@@ -10,9 +10,11 @@ $(function(){
         infinite: true,
         slidesToShow: 5,
         slidesToScroll: 1,
-        arrows: false,
+        arrows: true,
         dots: false,
-        autoplay: true,
+        // autoplay: true,
+        prevArrow: '<button class="slick-arrow prev-arrow icon-angle-left wow fadeIn" data-wow-offset="400" ></button>',
+        nextArrow: '<button class="slick-arrow next-arrow icon-angle-right wow fadeIn" data-wow-offset="400" ></button>',
         pauseOnHover:true,
         responsive: [
             {
